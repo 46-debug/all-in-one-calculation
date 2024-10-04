@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/all-in-one-calculation/static/css/main.b76c541f.css",
+    "main.js": "/all-in-one-calculation/static/js/main.7a40ad5a.js",
+    "static/media/jose-ignacio-pompe-BOdwM5V0jU4-unsplash.jpg": "/all-in-one-calculation/static/media/jose-ignacio-pompe-BOdwM5V0jU4-unsplash.47ac37ff1e68e333b2d0.jpg",
+    "static/media/Vector.svg": "/all-in-one-calculation/static/media/Vector.d785fc7841553ad03e6271eb9c815451.svg",
+    "static/media/convert.svg": "/all-in-one-calculation/static/media/convert.ef42e279887c15416ad5e8f26a433439.svg",
+    "static/media/int.svg": "/all-in-one-calculation/static/media/int.0dd11c4b6e7b22aaa114773f6c898985.svg",
+    "static/media/note.svg": "/all-in-one-calculation/static/media/note.2ae2ae52c8ffdda1a3e783b42d9d5ad4.svg",
+    "static/media/dis.svg": "/all-in-one-calculation/static/media/dis.ee72994c8577c9c2958439829e894a70.svg",
+    "static/media/bmi.svg": "/all-in-one-calculation/static/media/bmi.a1c8753f1008300ae461f18985966f31.svg",
+    "static/media/count.svg": "/all-in-one-calculation/static/media/count.2c0e751f5dd66dd0abad62a6febe9b6a.svg",
+    "static/media/age.svg": "/all-in-one-calculation/static/media/age.068b61193983c6f3a6eefed6a8190efe.svg",
+    "index.html": "/all-in-one-calculation/index.html",
+    "static/media/calc.svg": "/all-in-one-calculation/static/media/calc.2fc0d6ce786b3a9d2a669ae15735444b.svg",
+    "static/media/home.svg": "/all-in-one-calculation/static/media/home.d1e87b5ba1ec77961ab9d46e6447f330.svg",
+    "static/media/option.svg": "/all-in-one-calculation/static/media/option.614e276ed1b192daf210d5db4a1f5044.svg",
+    "main.b76c541f.css.map": "/all-in-one-calculation/static/css/main.b76c541f.css.map",
+    "main.7a40ad5a.js.map": "/all-in-one-calculation/static/js/main.7a40ad5a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b76c541f.css",
+    "static/js/main.7a40ad5a.js"
+  ]
+}
