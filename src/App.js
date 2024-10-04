@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import { HashRouter, Routes, Route } from 'react-router-dom';
+import Home from './Home';
+import Calculator from "./Calculator";
+import Bmi from './Bmi';
+import Counter from './Counter';
+import Discount from './Discount';
+import Emi from './Emi';
+import Age from './Age';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+      <HashRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/calculator" element={<Calculator />} />
+          <Route path="/bmi calculator" element={<Bmi />} />
+          <Route path="/counter" element={<Counter />} />
+          <Route path="/discount" element={<Discount />} />
+          <Route path="/emi" element={<Emi />} />
+          <Route path="/age calculator" element={<Age />} />
+        </Routes>
+      </HashRouter>
+    </>
+  )
 }
 
 export default App;

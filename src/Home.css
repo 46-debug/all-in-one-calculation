@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.div_main {
+  background: url(images/jose-ignacio-pompe-BOdwM5V0jU4-unsplash.jpg) lightgray 50% / cover no-repeat;
+  height: 100vh;
+}
+
+.detail_main {
+  display: flex;
+  padding: 35px 3vw;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+#d_main {
+  display: inline-flex;
+  padding: 10px 15px;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  border-radius: 100px;
+  background: rgba(255, 255, 255, 0.10);
+  backdrop-filter: blur(5px);
+}
+
+#d_main div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  color: white;
+}
+
+#img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+#img img {
+  height: 60px;
+  animation: sumit 5s infinite linear;
+}
+
+#img h3 {
+  position: absolute;
+  font-family: "inter";
+  font-size: clamp(20px, 3vw, 25px);
+  font-weight: 600;
+  background: linear-gradient(247deg, #DEDEDE 0%, #000 93.91%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#date {
+  font-family: "inter";
+  color: white;
+  font-size: clamp(20px, 3vw, 30px);
+}
+
+#time {
+  background: linear-gradient(270deg, #B8FF00 14.23%, #FF00DB 38.38%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "inter", serif;
+  font-weight: 600;
+  font-size: clamp(23px, 4vw, 55px);
+}
+
+
+.apps_main {
+  display: flex;
+  padding: 2vw 3vw;
+  justify-content: center;
+  align-items: center;
+  gap: 2vw;
+  flex-wrap: wrap;
+  border-radius: 3vw 3vw 0px 0px;
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(15px);
+  bottom: 0%;
+  position: absolute;
+}
+
+@keyframes sumit {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.apps {
+  padding: 10px 20px;
+  border-radius: 1.5vw;
+  background: rgba(255, 255, 255, 0.10);
+  backdrop-filter: blur(5px);
+  gap: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation-name: sumit;
+  font-weight: 400;
+  color: white;
+  font-size: clamp(12px, 1.5vw, 30px);
+  font-family: "inter";
+  width: 15vw;
+  height: 4vw;
+}
+
+.apps:hover {
+  background: linear-gradient(90deg, #FF01DB 0%, #B8FF01 100%);
+  backdrop-filter: blur(5px);
+  cursor: pointer;
+}
+
+.apps img {
+  height: 2.3vw;
+}
+
+.morning {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 10px;
+  gap: 37px;
+  margin: 0px .2vw;
+  font-weight: 500;
+  color: #B8FF00;
+  transition: 2s;
+}
+
+@media screen and (max-width: 750px) {
+  #detail_2 {
+    height: 30px;
+  }
+
+}
+
+@media screen and (max-width: 500px) {
+  .apps {
+    width: 35%;
+    height: 30px;
+    font-size: medium;
+  }
+
+  .apps img {
+    height: 4vw;
+  }
+
+}
+
+.links{
+  font-size: clamp(12px, 1.5vw, 30px);
+  text-decoration: none;
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}

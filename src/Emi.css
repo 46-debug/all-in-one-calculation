@@ -1,0 +1,131 @@
+#oo{
+    padding: 0px 2px;
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+#emi_main {
+    display: flex;
+    color: white;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.inpt_main {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+}
+
+.inpt_main label {
+    font-size: 15px;
+}
+
+.input {
+    border: .5px solid white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0px 10px;
+}
+
+.input p{
+    margin: 0px;
+
+}
+
+.input input[type="number"] {
+    padding: 8px;
+    color: white;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    font-size: 20px;
+}
+
+.input input[type="number"]::-webkit-inner-spin-button,
+.input input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
+
+#output_main{
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    gap: 10px;
+}
+
+#emi{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#emi h2{
+    margin: 0px;
+    color: red;
+    font-weight: 400;
+}
+
+#emi h4{
+    margin: 0px;
+}
+
+.interest_main{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.pm{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pm p{
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 15px;
+}
+
+#red{
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 100%;
+    display: flex;
+}
+
+#pink{
+    width: 10px;
+    height: 10px;
+    background-color: rgb(100, 0, 0);
+    border-radius: 100%;
+    display: flex;
+}
+
+.pm h5{
+    margin: 0px;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.clear{
+        padding: 10px;
+        border-radius: 10px;
+        border: .5px solid grey;
+        font-weight: 500;
+        font-family: "inter";
+        font-size: 1rem;
+        cursor: pointer;
+        background-color: transparent;
+        color: white;
+}

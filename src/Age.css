@@ -1,0 +1,32 @@
+.age_main {
+    display: flex;
+    flex-direction: column;
+}
+
+#inut{
+    padding: 10px 30px;
+    border: .5px solid white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    color: rgb(0, 0, 0);
+    font-family: inter;
+    margin-bottom: 20px;
+    background-color: antiquewhite;
+    font-weight: 500;
+}
+
+#lab{
+    margin: 10px 0px;
+    color: white;
+   
+}
+
+.age_result{
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
